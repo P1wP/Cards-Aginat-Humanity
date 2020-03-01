@@ -1,0 +1,13 @@
+{
+  "name": "Cards_Against_Humanity",
+  "version": "1.0.0",
+  "description": "Digital version of cards against humanity",
+  "main": "index.js",
+  "repository": "git@github.com:P1wP/Cards-Aginat-Humanity.git",
+  "author": "P1wP <jokke90@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
