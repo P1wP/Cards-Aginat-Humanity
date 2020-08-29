@@ -17,7 +17,7 @@ function Chat( { location } ){
     const [ users, setUsers ] = useState([]);
     const [ messages, setMessages ] = useState([]); // ALL MESSAGES
     const [ message, setMessage ] = useState("");   // SINGLE MESSAGE
-    const ENDPOINT = "localhost:5000";
+    const ENDPOINT = "https://cahm.herokuapp.com/";
 
     useEffect(()=>{
         const { name, room } = queryString.parse(location.search) // GET NAME AND ROOM
